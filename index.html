@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bloc de notas</title>
+</head>
+<body>
+  <h1>Bloc de notas</h1>
+  <form id="noteForm">
+    <label for="titleInput">Título:</label>
+    <input type="text" id="titleInput" required>
+    <label for="descriptionInput">Descripción:</label>
+    <input type="text" id="descriptionInput" required>
+    <button type="submit">Agregar nota</button>
+  </form>
+  <div class="section_notes">
+    <div id="notesContainer"></div>
+  </div>
+
+</body>
+<script src="js/script.js"></script>
+</html>

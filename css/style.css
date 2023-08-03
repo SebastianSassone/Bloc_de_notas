@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(56,103,222);
+  background: linear-gradient(324deg, rgba(56,103,222,1) 6%, rgba(0,70,250,1) 20%, rgba(121,48,216,1) 37%, rgba(178,0,139,1) 53%, rgba(199,16,0,1) 72%, rgba(219,69,0,1) 80%, rgba(246,180,0,0.9884678747940692) 95%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+label,
+input,
+button {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  padding: 10px;
+  background-color: #7777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+.section_notes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  margin-top: 5px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.note h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.note p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.note button {
+  padding: 8px;
+  background-color: #7777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.note_det{
+  display: flex;
+}
+
+.note_but{
+  display: flex;
+}
+
+.note button.editButton {
+  background-color: #7777;
+  margin-left: 5px;
+}
+
+.note button.deleteButton {
+  background-color: #7777;
+  margin-left: 5px;
+}
+
+.note button:hover {
+  background-color: #777;
+  margin-left: 5px;
+}
+
+/* Scrool bar  */
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #001b6b #000000;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #001b6b;
+  border-radius: 10px;
+  border: 3px solid #000e75;
+}
